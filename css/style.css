@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;
+    height: 100vh;
+    background-image: url(/istockphoto-1336271758-170667a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background: rgb(94, 5, 134);
+    color: white;
+    font-family: 'poppins', sans-serif;
+    margin-bottom: 30px;
+}
+
+.cabecalho{
+    text-transform: uppercase;
+}
+
+.nav-cabecalho-ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-cabecalho-ul li{
+    margin-left: 30px;
+    text-transform: uppercase;
+    list-style-type: none;
+    font-size: 22px;
+}
+
+.nav-cabecalho-ul a{
+    color: white;
+    text-decoration: none;
+    border: 1px solid transparent;
+    background: rgb(184, 98, 224);
+    padding: 5px 10px;
+    border-radius: 8px;
+    transition: 0.3s;
+    box-shadow: 2px 2px 5px rgb(75, 6, 75);
+
+}
+
+.nav-cabecalho-ul a:hover{
+    background: #c02ddd8f;
+}
+
+.container{
+    width: 500px;
+    border: 2px solid rgb(94, 5, 134);
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 8px;
+    background: rgb(243, 231, 248);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.campo-titulo{
+    text-align: center;
+    padding: 10px;
+    color: rgb(94, 5, 134)
+}
+
+.campo-titulo p{
+    padding: 12px;
+}
+
+.grupo {
+    border: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.campo label{
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+    color: rgb(94, 5, 134);
+}
+
+.campo input{
+    width: 80%;
+    padding: 10px;
+    border-radius: 12px;
+    margin: 5px 0 10px 0;
+}
+
+.campo input:focus{
+    background: #dfbbf08f;
+}
+
+.campo-check{
+    font-size: 20px;
+}
+
+.titulo-label{
+    color:rgb(94, 5, 134);
+}
+
+.campo-check label:first-child{
+    font-weight: bold;
+}
+
+.campo-check input{
+    margin: 15px 0 30px 0;
+    margin-right: 10px;
+}
+
+.campo-check label:hover{
+    color: #ec5a058f;
+    transition: 0.3s;
+}
+
+.campo-select{
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.campo-select label{
+    color: rgb(94, 5, 134);
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.campo-select select{
+    width: 28%;
+    font-size: 18px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    
+}
+.campo-select select:hover{
+    color: rgb(94, 5, 134);
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.campo-select select:focus{
+    background-color: #dfbbf08f;
+}
+
+.campo-select select option{
+    color: rgb(94, 5, 134);
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.campo-check02 {
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.campo-check02 .label-titulo{
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(94, 5, 134);
+}
+
+.campo-check02 label{
+    font-size: 16px;
+}
+
+.campo-check02 label:hover{
+    color: #ec5a058f;
+    transition: 0.3s;
+}
+
+.campo-textArea label{
+    font-size: 22px;
+    font-weight: bold;
+    color:rgb(94, 5, 134); ;
+}
+
+textarea{
+    resize: none;
+    width: 100%;
+}
+
+.botao {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: rgb(94, 5, 134);
+    color: white;
+    display: flex;
+    margin: 5px 0 5px 0;
+    border: none;
+    box-shadow: 1px 1px 5px purple;
+    
+}
+
+.botao:hover{
+    background: rgb(150, 21, 209);
+    transition: linear 0.8s;
+    transform:scale(1.05);
+}
+
+.rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background: rgb(94, 5, 134);
+    color: white;
+    font-family: 'poppins', sans-serif;
+    margin-top: 43px;
+    font-size: 22px;
+    text-transform: uppercase;
+}
